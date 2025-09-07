@@ -1,3 +1,5 @@
+# Learning python from scratch
+
 print("Hello World!") #no use of semicolon
 print("I'm Avanya") #only print not printf
 
@@ -47,3 +49,48 @@ print(a==b) #false
 print(a!=b) #true
 print(a>=b) #true
 print(a>b) #true
+
+#Assignment operators
+#num=num+10
+#num+=10  , both works same here
+#this works same for all operators
+
+#Logical Operators -> not , and ,or
+print(not False)
+print(not True)
+# and operator ->dono notes true hone chaiye tbhi true ayega
+#or operator -> ek value true hogi tb bhi true ayega
+
+#Type Conversion-> automatic Conversion
+a=2
+b=3.4
+sum=a+b #it automaticalyy give the output in the form of float
+ 
+ #Type Casting-> Manual Conversion
+a=1
+b="2"
+c=int(b) #string ko int mai convert kiya
+sum=a+c
+
+#input in python
+#name=input("Enter your name:")
+#print("Welcome",name)
+
+#prgrm to input 2 num and print their sum
+#first=int(input("First:"))
+#second=int(input("Second:"))
+#print("sum=",first+second)
+
+#prgrm for area of square
+#side=int(input("Side:"))
+#area=print(side*side)
+
+#prgrm for average of 2 floating number
+#a=float(input("a:"))
+#b=float(input("b:"))
+#average=print((a+b)/2)
+
+#boolean prgrm
+a=int(input("a:"))
+b=int(input("b:"))
+print(a>=b)
