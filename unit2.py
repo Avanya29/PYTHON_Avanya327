@@ -18,6 +18,6 @@ else:
 c=5
 d=9
 
-
 print(c) if c>d else print(d)
 
+ 
